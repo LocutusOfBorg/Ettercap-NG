@@ -26,6 +26,7 @@ NG-0.7.3 for iPhoneOS
    every version of iPhoneOS; just remember to codesign the executable you just
    compiled (ldid -S /usr/bin/ettercap).
 
+
 NG-0.7.3         20050528
 
    + added the INC (+=) and DEC (-=) operators to the filter engine
