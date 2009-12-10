@@ -19,12 +19,12 @@ NG-0.7.3 for iPhoneOS
    !! fixed src/interfaces/curses/widgets/wdg.h
 
    Ettercap compiles fine on iPhoneOS 3.0.x with the Open Toolchain 3.0
-   (Community Toolchain) and the right depencies. Make a 'diff' to see changes 
-   in every single files. The tool should be compiled without GTK support as
-   iPhoneOS will not allow you to use a graphical gui anyway (if you don't want
-   to rewrite the code). Once compiled, Ettercap should probably be useable on
-   every version of iPhoneOS; just remember to codesign the executable you just
-   compiled (ldid -S /usr/bin/ettercap).
+   (Community Toolchain) and the right dependencies. Make a 'diff' to see
+   changes in every single files. The tool should be compiled without GTK
+   support as iPhoneOS will not allow you to use a graphical gui anyway (if you
+   don't want to rewrite the code). Once compiled, Ettercap should probably be
+   useable on every version of iPhoneOS; just remember to codesign the
+   executable you just compiled (ldid -S /usr/bin/ettercap).
 
 
 NG-0.7.3         20050528
